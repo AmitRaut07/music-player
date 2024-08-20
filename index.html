@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c1a0a9124.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="music-player">
+           
+           <nav>
+            <div class="circle">
+                <i class="fa-solid fa-less-than"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+           </nav> 
+ <img class="song-img" src="shiv-tandav-image.jpg" alt="Shiva Tandav Thumbnail">
+          <h1>Shiva Tandav Storam</h1>  
+          <p>Feel the power of Shiva</p>
+          <audio id="song">
+            <source src="Shiva Tandava Stotram  Original Powerful & Best Trance.mp3" type="audio/mpeg">
+          </audio>
+          <input type="range" value="0" id="progress">
+          <div class="controls">
+            <div> <i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+          </div>
+</div>
+<footer>Copyright Amit Raut @2024</footer>
+       <script src="script.js"></script>
+</body>
+</html>
